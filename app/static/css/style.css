@@ -1,0 +1,58 @@
+/**
+ * @file
+ * Main stylesheet file.
+ */
+
+body {
+  background: #868686;
+}
+
+li {
+  color: #000;
+  font-size: 20px;
+  list-style-type: none;
+  margin: 0px auto;
+
+  margin-bottom: 10px;
+}
+
+#content {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  padding: 20px;
+  background: #FEFEFE;
+}
+
+#chat-window {
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+.message-box {
+  display: inline-block;
+
+  padding: 10px;
+
+  border-radius: 3px;
+  border: 1px solid #000;
+}
+
+.participant-message .message-box {
+  background-color: #eeeeee;
+}
+
+.own-message .message-box {
+  text-align: right;
+  background-color: #09f;
+}
+
+.participant-message {
+  margin-left: 5%;
+  margin-right: auto;
+}
+
+.own-message {
+  text-align: right;
+  margin-right: 5%;
+  margin-left: auto;
+}

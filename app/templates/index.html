@@ -1,0 +1,67 @@
+<!doctype html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  <!-- meta -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <!-- /meta -->
+
+  <!-- styles -->
+  <link type="text/css" rel="stylesheet" href="/static/css/bootstrap.css">
+  <link type="text/css" rel="stylesheet" href="/static/css/style.css" />
+  <!-- /styles -->
+
+  <!-- favicons -->
+  <link rel="shortcut icon" href="/static/ico/favicon.png">
+  <!-- /favicons -->
+
+</head>
+
+<body>
+
+  <!-- Begin page content -->
+  <main id="content" role="main" class="container">
+
+    <div class="row">
+      <div class="col">
+        <div id="chat-window">
+          <ul id="message-list" class="container">
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <form class="input-group mb-3" id="message-input">
+          <input type="text" class="form-control" placeholder="">
+          <div class="input-group-append">
+            <input type="submit" class="btn btn-outline-secondary" value="Send" />
+          </div>
+      </div>
+    </div>
+    </div>
+
+  </main>
+
+  </div>
+
+  <!-- scripts -->
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write(
+      '<script type="text/javascript" src="/static/js/libs/jquery-1.11.1.min.js"><\/script>')
+  </script>
+  <script type="text/javascript" src="/static/js/bootstrap.js" defer></script>
+  <script type="text/javascript" src="/static/js/chat.js"></script>
+  <!-- <script type="text/javascript" src="/static/js/plugins.js" defer></script>
+  <script type="text/javascript" src="/static/js/script.js" defer></script> -->
+  {% block scripts %}{% endblock %}
+  <!-- /scripts -->
+
+</body>
+
+</html>
