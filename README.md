@@ -60,14 +60,14 @@ pip3 install -r requirements.txt
 
 * Start up your SQLite database with:
 ```
-FLASK_APP=lab-app.py python3 -m flask db init
-FLASK_APP=lab-app.py python3 -m flask db migrate -m "my first migration"
-FLASK_APP=lab-app.py python3 -m flask db upgrade
+python3 -m flask db init
+python3 -m flask db migrate -m "my first migration"
+python3 -m flask db upgrade
 ```
 
 * Spin up the local web server with:
 ```
-FLASK_APP=lab-app.py FLASK_ENV=development python3 -m flask run
+python3 -m flask run
 ```
 
 
@@ -109,7 +109,7 @@ FLASK_APP=lab-app.py FLASK_ENV=development python3 -m flask run
 
 * You should not need to modify the schema, but if your database goes out of sync with your schema, you can run these commands:
 ```
-FLASK_APP=lab-app.py python3 -m flask db stamp head
-FLASK_APP=lab-app.py python3 -m flask db migrate
-FLASK_APP=lab-app.py python3 -m flask db upgrade
+python3 -m flask db stamp head
+python3 -m flask db migrate
+python3 -m flask db upgrade
 ```
