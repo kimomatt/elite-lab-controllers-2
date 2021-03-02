@@ -4,10 +4,10 @@
  */
 
 body {
-  background: #868686;
+  background: #FEFEFE;
 }
 
-li {
+main li {
   color: #000;
   font-size: 20px;
   list-style-type: none;
