@@ -43,7 +43,7 @@ main li {
 
 .own-message .message-box {
   text-align: right;
-  background-color: #09f;
+  background-color: rgb(129, 202, 250);
 }
 
 .participant-message {

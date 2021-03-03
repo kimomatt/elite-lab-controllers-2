@@ -9,21 +9,23 @@
 {% endblock %}
 
 {% block content %}
-<div class="row">
-  <div class="col">
-    <div id="chat-window">
-      <ul id="message-list" class="container">
-      </ul>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div id="chat-window">
+        <ul id="message-list" class="container">
+        </ul>
+      </div>
     </div>
   </div>
-</div>
-<div class="row">
-  <div class="col">
-    <form class="input-group mb-3" id="message-input">
-      <input type="text" class="form-control" placeholder="">
-      <div class="input-group-append">
-        <input type="submit" class="btn btn-outline-secondary" value="Send" />
-      </div>
+  <div class="row">
+    <div class="col">
+      <form class="input-group mb-3" id="message-input">
+        <input type="text" class="form-control" placeholder="">
+        <div class="input-group-append">
+          <input type="submit" class="btn btn-outline-secondary" value="Send" />
+        </div>
+    </div>
   </div>
 </div>
 {% endblock %}

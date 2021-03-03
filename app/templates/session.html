@@ -5,19 +5,22 @@
 {% endblock %}
 
 {% block content %}
-<div class="row">
-  <div class="col">
-    <h1>Enter Channel</h1>
-    <form action="" method="post" novalidate>
-      {{ form.hidden_tag() }}
-      <p>
-        {{ form.username.label }}<br>
-        {{ form.username(size=32) }}
-      </p>
-      <p>
-        {{ form.submit() }}</p>
-      </p>
-    </form>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1>Enter Channel</h1>
+      <form action="" method="post" novalidate>
+        {{ form.hidden_tag() }}
+        <p>
+          {{ form.username.label }}<br>
+          {{ form.username(size=32) }}
+        </p>
+        <p>
+          {{ form.submit() }}</p>
+        </p>
+      </form>
+    </div>
   </div>
 </div>
+
 {% endblock %}
