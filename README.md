@@ -31,7 +31,6 @@ Lab is complete when you are able to succesfully:
 * Receive messages
 
 If you look closely into the client JS file, it will require these APIs to work:
-* delete a message (`DELETE /messages/<message_id>`)
 * create message (`POST /messages/`)
 * get last messages in a chat (`GET /chat/<chat_id>/last?count=<number of message>`)
 * get the messages newer than ref_id (`GET /chat/<chat_id>/updates?ref_id=<id>`)
